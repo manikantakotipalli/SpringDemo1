@@ -1,0 +1,37 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:ctx="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+  http://www.springframework.org/schema/mvc
+  http://www.springframework.org/schema/mvc.xsd
+  http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+   
+   <bean id="student" class="com.manikanta.SpringDemo1.Student">
+   <property  name="sid" value="123">
+   </property>
+    </property name="sname value="manikanta">
+   <property>
+   </bean>
+   
+   <bean  id="studen1" class="com.manikanta.SpringDemo1.Student">
+          <constructor-arg index="0" value="124"></constructor-arg>
+          <constructor-arg index="1" value="124"></constructor-arg>
+   </bean>
+     <bean  id="studen2" class="com.manikanta.SpringDemo1.Student">
+          <constructor-arg index="0" value="mani"></constructor-arg>
+          
+   </bean>
+    <bean  id="studen3" class="com.manikanta.SpringDemo1.Student">
+          <constructor-arg index="0" value="mani" type="int"></constructor-arg>
+          
+   </bean>
+   
+   
+   </beans>
